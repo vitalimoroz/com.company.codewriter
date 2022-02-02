@@ -1,6 +1,8 @@
 package com.company.t0202;
 
 import java.util.Locale;
+import java.util.Random;
+import java.util.Scanner;
 
 public class t0202 {
     public static void main(String[] args) {
@@ -34,6 +36,16 @@ public class t0202 {
         System.out.println("длина cтроки str1 " + str1.length());
         System.out.println(str1.toString());
 
+//        Random rnd = new Random();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Іы ввели: " + sc.nextLine() );
+//        next ();
+//
+//        nextLine ();
+//
+//        nextInt ();
+//
+//        nextDouble ();
 
      }
 }
